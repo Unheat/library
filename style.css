@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  gap: 8px;
+}
+.row { display: contents; }  /* so each .cell lines up in the grid */
+.cell {
+  padding: 4px;
+  border: 1px solid #ccc;
+}
