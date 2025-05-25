@@ -3,3 +3,10 @@
   grid-template-columns: repeat(5, 1fr); /* 5 columns */
   gap: 8px;
 }
+
+ .bor *{
+  border: 1px solid rgb(87, 74, 74);
+}
+ .bor {
+  border: 1px solid rgb(87, 74, 74);
+}

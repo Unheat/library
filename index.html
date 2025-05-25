@@ -7,16 +7,43 @@
     <title>Document</title>
     <script src ="Script.js"></script>
     <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=add" />
 </head>
 <body>
     <div class = container>
-        <div class="author">author</div>
-        <div class = "title">title</div>
-        <div class="pages">pages</div>
-        <div class="read_status">read status</div>
+        <div class="bor author">author</div>
+        <div class = "bor title">title</div>
+        <div class="bor pages">pages</div>
+        <div class="bor read_status">read status</div>
 
     </div>
+    <button class="addBook material-symbols-outlined">addbook</button>
     
-    
+    <dialog>
+        <p>enter your  book's information:</p>
+
+        <p>
+        <label for="author">author name:</label>
+        <input type="text" id="author" name="author">
+        </p>
+
+        <p>
+        <label for="title">title:</label>
+        <input type="text" id="title" name="title">
+        </p>
+
+        <p>
+        <label for="pages">pages:</label>
+        <input type="text" id="pages" name="pages">
+        </p>
+
+        <p>
+        <label for="read">read status:</label>
+        <input type="text" id="read" name="read">
+        </p>
+        <button class ="submit">submit</button>
+
+    </dialog>
+
 </body>
 </html>
